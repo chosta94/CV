@@ -1,3 +1,5 @@
+/*Toute la page*/
+
 *
 {
     font-family: 'open_sansregular';
@@ -11,13 +13,14 @@ body
     margin-bottom: auto;
 }
 
+/*Menu du côté*/
+
 aside
 {
     background-color: #FBC02D;
     position: relative;
     left: -10px;
-    width: 34em;
-    padding-left: 2em;
+    width: 44em;
 }
 
 
@@ -32,6 +35,22 @@ aside
     margin-left: 2.8em;
 }
 
+#maphoto
+{
+    margin-top: 4.2em;
+    margin-left: 15%;
+    border-radius: 1000px;
+    border: 3px solid #FFB300;
+}
+
+.Menu
+{
+    text-align: center;
+    background-color: #424242;
+    font-size: 2em;
+    color: #FBC02D;
+}
+/*Police*/
 @font-face {
     font-family: 'open_sansregular';
     src: url('fonts/OpenSans-Regular-webfont.eot');
