@@ -151,6 +151,7 @@ header
 }
 
 /*Partie Formation*/
+
 .Partie1
 {
     display: flex;
@@ -356,6 +357,21 @@ ul li
     *
     {
         font-size: 0.98em;
+    }
+
+    #maphoto
+    {
+        width: 54%;
+    }
+
+    #paramenu
+    {
+        margin-bottom: 4em;
+    }
+
+    .petitesimages
+    {
+        width: 25px;
     }
 
     #p1
