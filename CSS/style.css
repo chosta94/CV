@@ -60,9 +60,9 @@ aside
     padding-right: 2.8em;
     text-align: justify;
     color: #424242;
-    font-size: 1.2em;
-    opacity: 0.9;
-    margin-bottom: 6.7em;
+    font-size: 1.1em;
+    opacity: 0.8;
+    margin-bottom: 13em;
 }
 
 #menucontact
@@ -131,6 +131,25 @@ header
 
 /*Section principale*/
 
+.titre3
+{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.petitpara
+{
+    position: relative;
+    bottom: 0.8em;
+    opacity: 0.7;
+}
+
+.petitpara2
+{
+    position: relative;
+    bottom: 0.4em;
+}
+
 /*Partie Formation*/
 .Partie1
 {
@@ -152,7 +171,7 @@ header
 .d1
 {
     position: relative;
-    top: 6.9em;
+    top: 7.5em;
 }
 
 ul li
@@ -189,7 +208,7 @@ ul li
 #circle3
 {
     position: relative;
-    left: -1.75em;
+    left: -1.71em;
     bottom: 1.4em;
     width: 12px;
     height: 12px;
@@ -200,7 +219,7 @@ ul li
 #circle4
 {
     position: relative;
-    left: -1.365em;
+    left: -1.41em;
     padding: 0.5;
     bottom: 0.75em;
     width: 6px;
@@ -218,6 +237,17 @@ ul li
     width: 12px;
     height: 12px;
     border: 0.17em solid #FBC02D;
+    border-radius: 50%
+}
+
+#circle6
+{
+    position: relative;
+    left: -1.5em;
+    bottom: -13.7em;
+    width: 10px;
+    height: 10px;
+    background: #FBC02D;
     border-radius: 50%
 }
 
@@ -255,7 +285,7 @@ ul li
 {
     position: relative;
     left: -1.5em;
-    bottom: -13.1em;
+    bottom: -13.7em;
     width: 10px;
     height: 10px;
     background: #FBC02D;
@@ -318,6 +348,132 @@ ul li
     font-family: 'open_sanslight';
     font-weight: 500;
 }
+
+/*Responsive*/
+
+@media screen and (max-width: 1230px)
+{ 
+    *
+    {
+        font-size: 0.98em;
+    }
+
+    #p1
+    {
+        width: 480px;
+        position: relative;
+        top: 0.5em;
+    }
+
+    #p3
+    {
+        width: 480px;
+    }
+    .p2
+    {
+        position: relative;
+        right: 1em;
+    }
+
+    #circle1
+    {
+        position: relative;
+        bottom: -47.2em;
+    }
+
+    #circle6
+    {
+        position: relative;
+        left: -1.5em;
+        bottom: 19em;
+        width: 10px;
+        height: 10px;
+        background: #FBC02D;
+        border-radius: 50%
+    }
+
+    #circle5
+    {
+        position: relative;
+        bottom: 1.5em;
+        left: -1.7em;
+    }
+    
+    aside
+    {
+        background-color: #FBC02D;
+        position: relative;
+        left: -10px;
+        width: 20em;
+        font-size: 0.97em;
+    }
+
+}
+
+@media screen and (max-width: 800px)
+{ 
+    *
+    {
+        font-size: 0.98em;
+    }
+
+    body
+    {
+        width: auto;
+    }
+
+    #p1
+    {
+        width: 480px;
+        position: relative;
+        top: 0.5em;
+    }
+
+    #p3
+    {
+        width: 480px;
+    }
+    .p2
+    {
+        position: relative;
+        right: 1em;
+    }
+
+    #circle1
+    {
+        position: relative;
+        bottom: -47.2em;
+    }
+
+    #circle6
+    {
+        position: relative;
+        left: -1.5em;
+        bottom: 19em;
+        width: 10px;
+        height: 10px;
+        background: #FBC02D;
+        border-radius: 50%
+    }
+
+    #circle5
+    {
+        position: relative;
+        bottom: 1.5em;
+        left: -1.7em;
+    }
+    
+    aside
+    {
+        background-color: #FBC02D;
+        position: relative;
+        left: -10px;
+        width: 20em;
+        font-size: 0.97em;
+    }
+
+}
+
 /*Polices*/
 
 @font-face {
