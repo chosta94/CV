@@ -41,6 +41,7 @@ aside
     margin-left: 21%;
     border-radius: 1000px;
     border: 3px solid #FFB300;
+    width: 57%;
 }
 
 .Menu
@@ -352,7 +353,7 @@ ul li
 
 /*Responsive*/
 
-@media screen and (max-width: 1230px)
+@media all and (max-width: 1230px)
 { 
     *
     {
@@ -426,11 +427,17 @@ ul li
 
 }
 
-@media screen and (max-width: 800px)
+@media all and (max-width: 768px)
 { 
     *
     {
-        font-size: 0.98em;
+        font-size: 0.96em;
+    }
+    #page
+
+    {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     body
@@ -440,14 +447,14 @@ ul li
 
     #p1
     {
-        width: 480px;
+        width: 400px;
         position: relative;
-        top: 0.5em;
+        top: 0.2em;
     }
 
     #p3
     {
-        width: 480px;
+        width: 410px;
     }
     .p2
     {
@@ -458,14 +465,33 @@ ul li
     #circle1
     {
         position: relative;
-        bottom: -47.2em;
+        bottom: -43.65em;
+    }
+
+    #circle4
+    {
+        position: relative;
+        bottom: 0.87em;
+    }
+
+    #circle2
+    {
+        position: relative;
+        bottom: 0.87em;
+        left: -1.3em;
+    }
+
+    #circle3
+    {
+        position: relative;
+        bottom: 1.8em;
     }
 
     #circle6
     {
         position: relative;
         left: -1.5em;
-        bottom: 19em;
+        bottom: 18.58em;
         width: 10px;
         height: 10px;
         background: #FBC02D;
@@ -475,8 +501,8 @@ ul li
     #circle5
     {
         position: relative;
-        bottom: 1.5em;
-        left: -1.7em;
+        bottom: 1.8em;
+        left: -1.8em;
     }
     
     aside
@@ -486,6 +512,38 @@ ul li
         left: -10px;
         width: 20em;
         font-size: 0.97em;
+    }
+
+    .d1
+    {
+        position: relative;
+        top: 5.4em;
+    }
+
+    aside
+    {
+        background-color: #FBC02D;
+        position: relative;
+        width: auto;
+    }
+
+    #maphoto
+    {
+        margin-left: 35%;
+        border-radius: 1000px;
+        border: 3px solid #FFB300;
+        width: 30%;
+    }
+
+    #menucontact
+    {
+        display: flex;
+        width: 44em;
+    }
+
+    #petitmenu
+    {
+        margin-right: 19em;
     }
 
 }
