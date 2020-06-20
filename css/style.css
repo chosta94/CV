@@ -160,20 +160,81 @@ header
     font-family: 'open_sanslight';
 }
 
-#p1
+.petit1
 {
+    display: none;
+    position: relative;
+    background:#FBC02D;
+    border-radius:50%;
+    width: 5px;
+    height: 5px;
+}
+
+.lemenu
+{
+    border: 1px solid brown;
+    position: relative;
+    top: 0.4em;
+}
+
+.p1
+{
+    border: 1px solid brown;
     width: 557px;
     font-size: 1.1em;
     padding-right: 2em;
     position: relative;
-    top: 0.1em;
-
+    top: -1.2em;
 }
-/*fesfezsfzes*/
+
+.points
+{
+    position: absolute;
+    top: 0.2em;
+    left: 0.17em;
+    background:#FBC02D;
+    border-radius:50%;
+    width: 5px;
+    height: 5px;
+}
+
+.points2
+{
+    position: absolute;
+    top: 0.15em;
+    left: 0.17em;
+    background:#FBC02D;
+    border-radius:50%;
+    width: 5px;
+    height: 5px;
+}
+
+.points3
+{
+    position: relative;
+    top: 14.5em;
+    left: -1.3em;
+    background:#FBC02D;
+    border-radius:50%;
+    width: 9px;
+    height: 9px;
+}
+
+.cercle
+{
+    position: relative;
+    right: 1.44em;
+    top: 2.15em;
+    border: 2px solid #FBC02D;
+    border-radius:50%;
+    width: 11px;
+    height: 11px;
+}
+
 .d1
 {
     position: relative;
-    top: 7.5em;
+    top: 9.2em;
 }
 
 ul li
@@ -187,6 +248,10 @@ ul li
     bottom: -0.6em;
 }
 
+#test1
+{
+    border: 1px solid brown;
+}
 .TitreMoyen
 {
     font-size: 1.7em;
@@ -205,58 +270,6 @@ ul li
     margin-right: 0.8em;
     position: relative;
     bottom: 0em;
-}
-
-#circle3
-{
-    position: relative;
-    left: -1.71em;
-    bottom: 1.4em;
-    width: 12px;
-    height: 12px;
-    border: 0.17em solid #FBC02D;
-    border-radius: 50%
-}
-
-#circle4
-{
-    position: relative;
-    left: -1.41em;
-    padding: 0.5;
-    bottom: 0.75em;
-    width: 6px;
-    height: 6px;
-    background: #FBC02D;
-    border-radius: 50%;
-    z-index: 2;
-}
-
-#circle5
-{
-    position: relative;
-    left: -1.75em;
-    bottom: 1.4em;
-    width: 12px;
-    height: 12px;
-    border: 0.17em solid #FBC02D;
-    border-radius: 50%
-}
-
-#circle6
-{
-    position: relative;
-    left: -1.5em;
-    bottom: -13.7em;
-    width: 10px;
-    height: 10px;
-    background: #FBC02D;
-    border-radius: 50%
-}
-
-#paris
-{
-    position: relative;
-    top: -1.3em;
 }
 
 /*Partie Expérience*/
@@ -281,39 +294,6 @@ ul li
     position: relative;
     padding-bottom: 0.5em;
     padding-left: 3.1em;
-}
-
-#circle1
-{
-    position: relative;
-    left: -1.5em;
-    bottom: -13.7em;
-    width: 10px;
-    height: 10px;
-    background: #FBC02D;
-    border-radius: 50%
-}
-
-#circle2
-{
-    position: relative;
-    left: -1.365em;
-    padding: 0.5;
-    bottom: 0.7em;
-    width: 6px;
-    height: 6px;
-    background: #FBC02D;
-    border-radius: 50%;
-    z-index: 2;
-}
-
-#p3
-{
-    width: 570px;
-    margin-right: 0.2em;
-    font-size: 1.1em;
-    padding-right: 1em;
-
 }
 
 /*Partie Recommandations*/
@@ -360,6 +340,45 @@ ul li
         font-size: 0.98em;
     }
 
+    body
+    {
+        width: auto;
+    }
+
+    #menucontact
+    {
+        width: auto;
+    }
+
+    .cercle
+    {
+        position: relative;
+        right: 1.44em;
+        top: 1.7em;
+        border: 2px solid #FBC02D;
+        border-radius:50%;
+        width: 11px;
+        height: 11px;
+    }
+
+    .points2
+    {
+        position: relative;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 5px;
+        height: 5px;
+    }
+
+    .points3
+    {
+        position: absolute;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 5px;
+        height: 5px;
+    }
+
     #maphoto
     {
         width: 54%;
@@ -382,38 +401,10 @@ ul li
         top: 0.5em;
     }
 
-    #p3
-    {
-        width: 480px;
-    }
     .p2
     {
         position: relative;
         right: 1em;
-    }
-
-    #circle1
-    {
-        position: relative;
-        bottom: -47.2em;
-    }
-
-    #circle6
-    {
-        position: relative;
-        left: -1.5em;
-        bottom: 19em;
-        width: 10px;
-        height: 10px;
-        background: #FBC02D;
-        border-radius: 50%
-    }
-
-    #circle5
-    {
-        position: relative;
-        bottom: 1.5em;
-        left: -1.7em;
     }
     
     aside
@@ -427,7 +418,113 @@ ul li
 
 }
 
-@media all and (max-width: 768px)
+@media all and (max-width: 594px)
+{
+    .poste
+    {
+        font-size: 0.85em;
+        padding-top: 2.5em;
+
+    }
+
+    .poste2
+    {
+        margin-bottom: 1.4em;
+        font-size: 0.85em;
+    }
+
+    .petit1
+    {
+        display: inherit;
+        position: relative;
+        right: 1.5em;
+        top: 3.7em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 8px;
+        height: 8px;
+    }
+
+    .petit2
+    {
+        display: inherit;
+        position: relative;
+        right: 1.5em;
+        top: 7.8em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 8px;
+        height: 8px;
+    }
+
+    .d1
+    {
+        font-size: 0.85em;
+    }
+
+    #titre
+    {
+        font-family: 'open_sanslight';
+        font-size: 2.5em;
+    }
+
+    #titre2
+    {
+        font-size: 1.2em;
+        color: #424242;
+        position: relative;
+        bottom: 2em;
+    }
+
+    .cercle
+    {
+        display: none;
+    }
+
+    .points3
+    {
+        display: none;
+    }
+
+    .cercle
+    {
+        position: relative;
+        right: 2.5em;
+        top: 2em;
+        border: 2px solid #FBC02D;
+        border-radius:50%;
+        width: 11px;
+        height: 11px;
+    }
+
+    .p1
+    {
+        width: 400px;
+        position: relative;
+        top: -1.5em;
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 420px)
+{
+    #TitreMoyen2
+    {
+        font-size: 1.4em;
+    }
+    .titre3
+    {
+        font-size: 1.4em;
+    }
+    #valise
+    {
+        position: relative;
+        bottom: -1.5em;
+    }
+
+}
+
+@media all and (max-width: 1090px)
 { 
     *
     {
@@ -445,64 +542,67 @@ ul li
         width: auto;
     }
 
-    #p1
+    .p1
     {
         width: 400px;
         position: relative;
-        top: 0.2em;
+        top: -1.5em;
     }
 
-    #p3
+    .cercle
     {
-        width: 410px;
+        position: relative;
+        right: 2.5em;
+        top: 2.45em;
+        border: 2px solid #FBC02D;
+        border-radius:50%;
+        width: 11px;
+        height: 11px;
     }
+
+    .points
+    {
+        position: absolute;
+        top: 0.2em;
+        left: 0.3em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 5px;
+        height: 5px;
+    }
+
+    .points2
+    {
+        position: absolute;
+        top: 0.25em;
+        left: 0.25em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 5px;
+        height: 5px;
+    }
+
+    .points3
+    {
+        position: relative;
+        top: 12.8em;
+        left: -2.1em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 9px;
+        height: 9px;
+    }
+
+    .d1
+    {
+        position: relative;
+        top: 7.5em;
+    }
+
     .p2
     {
         position: relative;
         right: 1em;
-    }
-
-    #circle1
-    {
-        position: relative;
-        bottom: -43.65em;
-    }
-
-    #circle4
-    {
-        position: relative;
-        bottom: 0.87em;
-    }
-
-    #circle2
-    {
-        position: relative;
-        bottom: 0.87em;
-        left: -1.3em;
-    }
-
-    #circle3
-    {
-        position: relative;
-        bottom: 1.8em;
-    }
-
-    #circle6
-    {
-        position: relative;
-        left: -1.5em;
-        bottom: 18.58em;
-        width: 10px;
-        height: 10px;
-        background: #FBC02D;
-        border-radius: 50%
-    }
-
-    #circle5
-    {
-        position: relative;
-        bottom: 1.8em;
-        left: -1.8em;
     }
     
     aside
@@ -512,12 +612,6 @@ ul li
         left: -10px;
         width: 20em;
         font-size: 0.97em;
-    }
-
-    .d1
-    {
-        position: relative;
-        top: 5.4em;
     }
 
     aside
@@ -547,6 +641,118 @@ ul li
     }
 
 }
+
+@media all and (max-width: 360px)
+{ 
+    *
+    {
+        font-size: 0.95em;
+    }
+    #page
+
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    body
+    {
+        width: auto;
+    }
+
+    #p1
+    {
+        width: 400px;
+        position: relative;
+        top: 0.2em;
+    }
+
+    .p2
+    {
+        position: relative;
+        right: 1em;
+    }
+
+    #circle1
+    {
+        position: relative;
+        bottom: -58.3em;
+    }
+
+    #circle4
+    {
+        position: relative;
+        bottom: 2.25em;
+    }
+
+    #circle2
+    {
+        position: relative;
+        bottom: 3.6em;
+        left: -1.3em;
+    }
+
+    #circle3
+    {
+        position: relative;
+        bottom: 4.5em;
+    }
+
+    #circle6
+    {
+        position: relative;
+        left: -1.5em;
+        bottom: 25.9em;
+        width: 10px;
+        height: 10px;
+        background: #FBC02D;
+        border-radius: 50%
+    }
+
+    #circle5
+    {
+        position: relative;
+        bottom: 3.2em;
+        left: -1.8em;
+    }
+    
+    aside
+    {
+        background-color: #FBC02D;
+        position: relative;
+        left: -10px;
+        width: 20em;
+        font-size: 0.97em;
+    }
+
+    aside
+    {
+        background-color: #FBC02D;
+        position: relative;
+        width: auto;
+    }
+
+    #maphoto
+    {
+        margin-left: 35%;
+        border-radius: 1000px;
+        border: 3px solid #FFB300;
+        width: 30%;
+    }
+
+    #menucontact
+    {
+        display: flex;
+        width: 44em;
+    }
+
+    #petitmenu
+    {
+        margin-right: 19em;
+    }
+
+}
+
 
 /*Polices*/
 
