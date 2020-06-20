@@ -290,7 +290,7 @@ ul li
     left: 0.1em;
 }
 
-#TitreMoyen2
+.TitreMoyen2
 {
     font-size: 1.7em;
     font-weight: 590;
@@ -409,6 +409,32 @@ ul li
 
 }
 
+@media all and (max-width: 488px)
+{
+    .poste3
+    {
+        margin-bottom: 2em;
+    }
+
+    .poste2
+    {
+        margin-bottom: 0em;
+    }
+}
+
+@media all and (max-width: 374px)
+{
+    .poste3
+    {
+        margin-bottom: 2em;
+    }
+
+    .poste2
+    {
+        margin-bottom: 2em;
+    }
+}
+
 @media all and (max-width: 594px)
 {
     .poste
@@ -505,7 +531,7 @@ ul li
 
 @media all and (max-width: 420px)
 {
-    #TitreMoyen2
+    .TitreMoyen2
     {
         font-size: 1.4em;
     }
