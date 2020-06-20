@@ -172,14 +172,12 @@ header
 
 .lemenu
 {
-    border: 1px solid brown;
     position: relative;
     top: 0.4em;
 }
 
 .p1
 {
-    border: 1px solid brown;
     width: 557px;
     font-size: 1.1em;
     padding-right: 2em;
@@ -248,10 +246,6 @@ ul li
     bottom: -0.6em;
 }
 
-#test1
-{
-    border: 1px solid brown;
-}
 .TitreMoyen
 {
     font-size: 1.7em;
@@ -322,7 +316,7 @@ ul li
 {
     color: #424242;
     position: relative;
-    right: 8em;
+    right: 4em;
 }
 
 .email
@@ -353,8 +347,6 @@ ul li
     .cercle
     {
         position: relative;
-        right: 1.44em;
-        top: 1.7em;
         border: 2px solid #FBC02D;
         border-radius:50%;
         width: 11px;
@@ -364,19 +356,7 @@ ul li
     .points2
     {
         position: relative;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 5px;
-        height: 5px;
-    }
-
-    .points3
-    {
-        position: absolute;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 5px;
-        height: 5px;
+        top: 0.2em;
     }
 
     #maphoto
@@ -524,17 +504,107 @@ ul li
 
 }
 
+@media all and (max-width: 693px)
+{ 
+    #petitmenu2
+    {
+        position: relative;
+        right: 9em;
+    }
+}
+
+@media all and (max-width: 556px)
+{ 
+    #petitmenu2
+    {
+        position: relative;
+        right: 14em;
+    }
+}
+
+@media all and (max-width: 478px)
+{ 
+    #petitmenu2
+    {
+        position: relative;
+        font-size: 0.8em;
+        right: 12em;
+    }
+
+    #petitmenu
+    {
+        position: relative;
+        font-size: 0.8em;
+        right: 1.2em;
+    }
+}
+
+@media all and (max-width: 430px)
+{ 
+    #petitmenu2
+    {
+        position: relative;
+        font-size: 0.8em;
+        right: 16em;
+    }
+
+    #petitmenu
+    {
+        position: relative;
+        font-size: 0.8em;
+        right: 1.2em;
+    }
+
+    #paramenu
+    {
+        font-size: 0.8em;
+    }
+
+    #p6
+    {
+        position: relative;
+        right: 7.5em;
+    }
+}
+@media all and (max-width: 382px)
+{ 
+    #petitmenu2
+    {
+        position: relative;
+        font-size: 0.7em;
+        right: 16em;
+    }
+
+    #petitmenu
+    {
+        position: relative;
+        font-size: 0.7em;
+        right: 1.2em;
+    }
+}
+
 @media all and (max-width: 1090px)
 { 
     *
     {
-        font-size: 0.96em;
+        font-size: 0.98em;
     }
     #page
 
     {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    #lemenu
+    {
+        display: flex;
+    }
+
+    #menucontact
+    {
+        display: flex;
+        justify-content: space-between;
     }
 
     body
@@ -562,24 +632,15 @@ ul li
 
     .points
     {
-        position: absolute;
-        top: 0.2em;
-        left: 0.3em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 5px;
-        height: 5px;
+        position: relative;
+        left: 0.2em;
+        top: 0.25em;
     }
 
     .points2
     {
-        position: absolute;
-        top: 0.25em;
-        left: 0.25em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 5px;
-        height: 5px;
+        position: relative;
+        left: 0.2em;
     }
 
     .points3
@@ -629,15 +690,10 @@ ul li
         width: 30%;
     }
 
-    #menucontact
-    {
-        display: flex;
-        width: 44em;
-    }
-
     #petitmenu
     {
-        margin-right: 19em;
+        margin-right: 15em;
+        width: auto;
     }
 
 }
