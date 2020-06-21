@@ -548,7 +548,7 @@ ul li
 
 }
 
-@media all and (max-width: 693px)
+@media all and (max-width: 728px)
 { 
     #petitmenu2
     {
@@ -557,7 +557,7 @@ ul li
     }
 }
 
-@media all and (max-width: 556px)
+@media all and (max-width: 592px)
 { 
     #petitmenu2
     {
@@ -566,7 +566,7 @@ ul li
     }
 }
 
-@media all and (max-width: 478px)
+@media all and (max-width: 514px)
 { 
     #petitmenu2
     {
@@ -583,7 +583,7 @@ ul li
     }
 }
 
-@media all and (max-width: 430px)
+@media all and (max-width: 468px)
 { 
     #petitmenu2
     {
@@ -610,7 +610,7 @@ ul li
         right: 7.5em;
     }
 }
-@media all and (max-width: 382px)
+@media all and (max-width: 418px)
 { 
     #petitmenu2
     {
@@ -766,7 +766,7 @@ ul li
         top: 14em;
     }
 }
-@media all and (max-width: 360px)
+@media all and (max-width: 380px)
 { 
     *
     {
@@ -872,7 +872,7 @@ ul li
 
     #petitmenu
     {
-        margin-right: 19em;
+        margin-right: 13em;
     }
 
     .poste3
