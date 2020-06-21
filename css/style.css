@@ -127,7 +127,8 @@ header
 
 #s2
 {
-    text-decoration: underline 2px #FBC02D;
+    text-decoration: underline #FBC02D;
+    text-decoration-thickness: 2px;
 }
 
 /*Section principale*/
@@ -260,7 +261,7 @@ ul li
 .TitreMoyen
 {
     font-size: 1.7em;
-    font-weight: 590;
+    font-weight: 600;
     border-bottom: 2px solid #FBC02D;
     margin-top: 3em;
     position: relative;
@@ -293,7 +294,7 @@ ul li
 .TitreMoyen2
 {
     font-size: 1.7em;
-    font-weight: 590;
+    font-weight: 600;
     border-bottom: 2px solid #FBC02D;
     margin-top: 3em;
     position: relative;
