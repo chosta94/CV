@@ -128,7 +128,7 @@ header
 #s2
 {
     text-decoration: underline #FBC02D;
-    text-decoration-thickness: 2px;
+    border-bottom: 1px solid #FBC02D;
 }
 
 /*Section principale*/
