@@ -193,7 +193,7 @@ header
 .points
 {
     position: absolute;
-    top: 0.2em;
+    top: 0.15em;
     left: 0.17em;
     background:#FBC02D;
     border-radius:50%;
@@ -204,7 +204,7 @@ header
 .points2
 {
     position: absolute;
-    top: 0.15em;
+    top: 0.2em;
     left: 0.17em;
     background:#FBC02D;
     border-radius:50%;
@@ -215,8 +215,8 @@ header
 .points3
 {
     position: relative;
-    top: 14.5em;
-    left: -1.3em;
+    top: 15.5em;
+    left: 0.7em;
     background:#FBC02D;
     border-radius:50%;
     width: 9px;
@@ -226,8 +226,8 @@ header
 .points4
 {
     position: relative;
-    top: 14.5em;
-    left: -1.3em;
+    top: 15.4em;
+    left: 0.9em;
     background:#FBC02D;
     border-radius:50%;
     width: 9px;
@@ -237,8 +237,19 @@ header
 .cercle
 {
     position: relative;
-    right: 1.44em;
-    top: 2.15em;
+    right: -0.7em;
+    top: 3em;
+    border: 2px solid #FBC02D;
+    border-radius:50%;
+    width: 11px;
+    height: 11px;
+}
+
+.cercle2
+{
+    position: relative;
+    right: -0.7em;
+    top: 3em;
     border: 2px solid #FBC02D;
     border-radius:50%;
     width: 11px;
@@ -367,11 +378,30 @@ ul li
         border-radius:50%;
         width: 11px;
         height: 11px;
+        top: 3.3em;
+    }
+
+    .cercle2
+    {
+        top: 3.3em;
     }
 
     .points2
     {
         position: relative;
+        top: 0.2em;
+        left: 0.25em;
+    }
+
+    .points4
+    {
+        top: 15.4em;
+        left: 1.1em;
+    }
+
+    .points
+    {
+        left: 0.24em;
         top: 0.2em;
     }
 
@@ -460,8 +490,8 @@ ul li
     {
         display: inherit;
         position: relative;
-        right: 1.5em;
-        top: 3.7em;
+        right: -1.2em;
+        top: 4.55em;
         background:#FBC02D;
         border-radius:50%;
         width: 8px;
@@ -472,8 +502,32 @@ ul li
     {
         display: inherit;
         position: relative;
-        right: 1.5em;
-        top: 7.8em;
+        right: -1.2em;
+        top: 15.6em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 8px;
+        height: 8px;
+    }
+
+    .petit3
+    {
+        display: inherit;
+        position: relative;
+        right: -1.2em;
+        top: 4.5em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 8px;
+        height: 8px;
+    }
+
+    .petit4
+    {
+        display: inherit;
+        position: relative;
+        top: 15.3em;
+        left: 1.2em;
         background:#FBC02D;
         border-radius:50%;
         width: 8px;
@@ -504,6 +558,16 @@ ul li
         display: none;
     }
 
+    .points
+    {
+        display: none;
+    }
+
+    .points2
+    {
+        display: none;
+    }
+
     .points3
     {
         display: none;
@@ -514,15 +578,9 @@ ul li
         display: none;
     }
 
-    .cercle
+    .cercle2
     {
-        position: relative;
-        right: 2.5em;
-        top: 2em;
-        border: 2px solid #FBC02D;
-        border-radius:50%;
-        width: 11px;
-        height: 11px;
+        display: none;
     }
 
     .p1
@@ -567,6 +625,70 @@ ul li
     {
         position: relative;
         right: 14em;
+    }
+}
+
+@media all and (max-width: 511px)
+{ 
+    .petit4
+    {
+        top: 16.4em;
+    }
+}
+
+@media all and (max-width: 490px)
+{ 
+    .petit2
+    {
+        top: 16.9em;
+    }
+}
+
+@media all and (max-width: 490px)
+{ 
+    .petit4
+    {
+        top: 18.4em;
+    }
+}
+
+@media all and (max-width: 360px)
+{ 
+    .petit4
+    {
+        display: none;
+    }
+
+    .petit5
+    {
+        display: inherit;
+        position: relative;
+        top: 17.5em;
+        left: 1.2em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media all and (max-width: 348px)
+{ 
+    .petit2
+    {
+        display: none;
+    }
+
+    .petit6
+    {
+        display: inherit;
+        position: relative;
+        top: 18.5em;
+        left: 1.2em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 8px;
+        height: 8px;
     }
 }
 
@@ -670,12 +792,19 @@ ul li
     .cercle
     {
         position: relative;
-        right: 2.5em;
-        top: 2.45em;
+        right: -1em;
+        top: 3.2em;
         border: 2px solid #FBC02D;
         border-radius:50%;
         width: 11px;
         height: 11px;
+    }
+
+    .cercle2
+    {
+        position: relative;
+        top: 3.3em;
+        left: 0.8em;
     }
 
     .points
@@ -694,8 +823,8 @@ ul li
     .points3
     {
         position: relative;
-        top: 12.8em;
-        left: -2.1em;
+        top: 13.6em;
+        left: 1.2em;
         background:#FBC02D;
         border-radius:50%;
         width: 9px;
@@ -705,8 +834,8 @@ ul li
     .points4
     {
         position: relative;
-        top: 12.8em;
-        left: -2.1em;
+        top: 13.7em;
+        left: 1em;
         background:#FBC02D;
         border-radius:50%;
         width: 9px;
@@ -756,20 +885,7 @@ ul li
     }
 
 }
-@media all and (max-width: 777px)
-{
-    .points3
-    {
-        position: relative;
-        top: 12.5em;
-    }
 
-    .points4
-    {
-        position: relative;
-        top: 14em;
-    }
-}
 @media all and (max-width: 380px)
 { 
     *
@@ -887,6 +1003,26 @@ ul li
     .poste2
     {
         margin-bottom: 3.5em;
+    }
+
+    .petit1
+    {
+        top: 5em;
+    }
+
+    .petit2
+    {
+        top: 17.2em;
+    }
+
+    .petit3
+    {
+        top: 5em;
+    }
+
+    .petit4
+    {
+        top: 16.5em;
     }
 
 }
