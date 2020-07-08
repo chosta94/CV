@@ -634,21 +634,16 @@ ul li
     }
 }
 
-@media all and (max-width: 511px)
+@media all and (max-width: 592px)
 { 
     .petit4
     {
-        top: 16.4em;
+        top: 10em;
     }
 }
 
 @media all and (max-width: 492px)
 { 
-    .d1
-    {
-        display:;
-    }
-
     .d2
     {
         position: relative;
@@ -665,11 +660,41 @@ ul li
     }
 }
 
-@media all and (max-width: 490px)
+@media all and (max-width: 488px)
 { 
+    .petit7
+    {
+        top: 20em;
+    }
+}
+
+@media all and (max-width: 510px)
+{ 
+    .points4
+    {
+        display: none;
+    }
+
     .petit4
     {
-        top: 18.4em;
+        display: none;
+    }
+
+    .petit5
+    {
+        display: none;
+    }
+
+    .petit7
+    {
+        display: inherit;
+        position: relative;
+        top: 16em;
+        left: 1.2em;
+        background:#FBC02D;
+        border-radius:50%;
+        width: 8px;
+        height: 8px;
     }
 }
 
