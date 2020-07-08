@@ -165,16 +165,6 @@ header
     font-family: 'open_sanslight';
 }
 
-.petit1
-{
-    display: none;
-    position: relative;
-    background:#FBC02D;
-    border-radius:50%;
-    width: 5px;
-    height: 5px;
-}
-
 .lemenu
 {
     position: relative;
@@ -190,16 +180,8 @@ header
     top: -1.2em;
 }
 
-.d2
-{
-    display: none;
-}
-
 .points
 {
-    position: absolute;
-    top: 0.15em;
-    left: 0.17em;
     background:#FBC02D;
     border-radius:50%;
     width: 5px;
@@ -208,57 +190,38 @@ header
 
 .points2
 {
-    position: absolute;
-    top: 0.2em;
-    left: 0.17em;
     background:#FBC02D;
     border-radius:50%;
-    width: 5px;
-    height: 5px;
-}
-
-.points3
-{
-    position: relative;
-    top: 14em;
-    left: 0.9em;
-    background:#FBC02D;
-    border-radius:50%;
-    width: 9px;
-    height: 9px;
-}
-
-.points4
-{
-    position: relative;
-    top: 14em;
-    left: 0.9em;
-    background:#FBC02D;
-    border-radius:50%;
-    width: 9px;
-    height: 9px;
+    width: 6px;
+    height: 6px;
+    margin-left: 0.35em;
+    margin-right: 1em;
+    margin-top: 0.43em;
 }
 
 .cercle
 {
-    position: relative;
-    right: -0.7em;
-    top: 3em;
+    display: flex;
+    justify-content: center;
     border: 2px solid #FBC02D;
     border-radius:50%;
     width: 11px;
     height: 11px;
+    align-items: center;
+    margin-right: 0.6em;
+    margin-top: 0.2em;
 }
 
-.cercle2
+.Grandpoints
 {
-    position: relative;
-    right: -0.7em;
-    top: 3em;
-    border: 2px solid #FBC02D;
-    border-radius:50%;
-    width: 11px;
-    height: 11px;
+    display: flex;
+    margin-top: 2.5em;
+}
+
+.Grandpoints2
+{
+    display: flex;
+    margin-top: 11em;
 }
 
 .d1
@@ -376,47 +339,6 @@ ul li
         width: auto;
     }
 
-    .cercle
-    {
-        position: relative;
-        border: 2px solid #FBC02D;
-        border-radius:50%;
-        width: 11px;
-        height: 11px;
-        top: 3.3em;
-    }
-
-    .cercle2
-    {
-        top: 3.3em;
-    }
-
-    .points2
-    {
-        position: relative;
-        top: 0.2em;
-        left: 0.25em;
-    }
-
-    .points3
-    {
-        position: relative;
-        top: 14.8em;
-        left: 1.1em;
-    }
-
-    .points4
-    {
-        top: 14.8em;
-        left: 1.1em;
-    }
-
-    .points
-    {
-        left: 0.24em;
-        top: 0.2em;
-    }
-
     #maphoto
     {
         width: 54%;
@@ -461,29 +383,65 @@ ul li
 
 }
 
-@media all and (max-width: 488px)
+@media all and (max-width: 552px)
 {
-    .poste3
+    .cercle
     {
-        margin-bottom: 2em;
+        margin-top: 0.4em;
+        margin-right: 1em;
+        width: 4px;
+        height: 4px;
+        background: #FBC02D;
     }
 
-    .poste2
+    .points
     {
-        margin-bottom: 0em;
+        display: none;
+    }
+
+    .points2
+    {
+        display: flex;
+        justify-content: center;
+        border: 2px solid #FBC02D;
+        border-radius:50%;
+        width: 4px;
+        height: 4px;
+        align-items: center;
+        margin-right: 1em;
+        margin-top: 0.35em;
+        margin-left: 0em;
     }
 }
 
-@media all and (max-width: 374px)
+@media all and (max-width: 490px)
 {
-    .poste3
+    .cercle
     {
-        margin-bottom: 2em;
+        margin-top: 0.4em;
+        margin-right: 1em;
+        width: 3px;
+        height: 3px;
+        background: #FBC02D;
     }
 
-    .poste2
+    .points
     {
-        margin-bottom: 2em;
+        display: none;
+    }
+
+    .points2
+    {
+        display: flex;
+        justify-content: center;
+        border: 2px solid #FBC02D;
+        border-radius:50%;
+        width: 3px;
+        height: 3px;
+        align-items: center;
+        margin-right: 1em;
+        margin-top: 0.35em;
+        margin-left: 0em;
     }
 }
 
@@ -496,55 +454,6 @@ ul li
  
     }
 
-    .poste2
-    {
-
-        margin-bottom: 2em;
-        font-size: 0.85em;
-    }
-
-    .petit1
-    {
-        display: inherit;
-        position: relative;
-        right: -1.2em;
-        top: 4.55em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 8px;
-        height: 8px;
-    }
-
-    .petit2
-    {
-        display: inherit;
-        position: relative;
-        right: -1.2em;
-        top: 15.6em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 8px;
-        height: 8px;
-    }
-
-    .petit3
-    {
-        display: inherit;
-        position: relative;
-        right: -1.2em;
-        top: 4.5em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 8px;
-        height: 8px;
-    }
-
-    .d1
-    {
-        font-size: 0.85em;
-        top: 20em;
-    }
-
     #titre
     {
         font-family: 'open_sanslight';
@@ -553,40 +462,10 @@ ul li
 
     #titre2
     {
-        font-size: 1.2em;
+        font-size: 0.85em;
         color: #424242;
         position: relative;
         bottom: 2em;
-    }
-
-    .cercle
-    {
-        display: none;
-    }
-
-    .points
-    {
-        display: none;
-    }
-
-    .points2
-    {
-        display: none;
-    }
-
-    .points3
-    {
-        display: none;
-    }
-
-    .points4
-    {
-        display: none;
-    }
-
-    .cercle2
-    {
-        display: none;
     }
 
     .p1
@@ -595,6 +474,11 @@ ul li
         position: relative;
         top: -1.5em;
         height: 350px;
+    }
+
+    .Grandpoints
+    {
+        margin-top: 0.7em;
     }
 }
 
@@ -631,132 +515,6 @@ ul li
     {
         position: relative;
         right: 14em;
-    }
-}
-
-@media all and (max-width: 592px)
-{ 
-    .petit4
-    {
-        top: 10em;
-    }
-}
-
-@media all and (max-width: 492px)
-{ 
-    .d2
-    {
-        position: relative;
-        top: 0em;
-        font-size: 0.85em;
-    }
-}
-
-@media all and (max-width: 490px)
-{ 
-    .petit2
-    {
-        top: 16.9em;
-    }
-}
-
-@media all and (max-width: 488px)
-{ 
-    .petit7
-    {
-        top: 20em;
-    }
-}
-
-@media all and (max-width: 510px)
-{ 
-    .points4
-    {
-        display: none;
-    }
-
-    .petit4
-    {
-        display: none;
-    }
-
-    .petit5
-    {
-        display: none;
-    }
-
-    .petit7
-    {
-        display: inherit;
-        position: relative;
-        top: 16em;
-        left: 1.2em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 8px;
-        height: 8px;
-    }
-}
-
-
-@media all and (max-width: 777px)
-{ 
-
-    .petit5
-    {
-        display: inherit;
-        position: relative;
-        top: 15em;
-        left: 1.2em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 8px;
-        height: 8px;
-    }
-    
-    .points4
-    {
-        display: none;
-    }
-}
-
-@media all and (max-width: 360px)
-{ 
-    .petit4
-    {
-        display: none;
-    }
-
-    .petit5
-    {
-        display: inherit;
-        position: relative;
-        top: 17.5em;
-        left: 1.2em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 8px;
-        height: 8px;
-    }
-}
-
-@media all and (max-width: 348px)
-{ 
-    .petit2
-    {
-        display: none;
-    }
-
-    .petit6
-    {
-        display: inherit;
-        position: relative;
-        top: 18.5em;
-        left: 1.2em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 8px;
-        height: 8px;
     }
 }
 
@@ -855,59 +613,6 @@ ul li
         width: 400px;
         position: relative;
         top: -1.5em;
-    }
-
-    .cercle
-    {
-        position: relative;
-        right: -1em;
-        top: 3.2em;
-        border: 2px solid #FBC02D;
-        border-radius:50%;
-        width: 11px;
-        height: 11px;
-    }
-
-    .cercle2
-    {
-        position: relative;
-        top: 3.3em;
-        left: 0.8em;
-    }
-
-    .points
-    {
-        position: relative;
-        left: 0.2em;
-        top: 0.25em;
-    }
-
-    .points2
-    {
-        position: relative;
-        left: 0.2em;
-    }
-
-    .points3
-    {
-        position: relative;
-        top: 13.9em;
-        left: 1.2em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 9px;
-        height: 9px;
-    }
-
-    .points4
-    {
-        position: relative;
-        top: 14em;
-        left: 1em;
-        background:#FBC02D;
-        border-radius:50%;
-        width: 9px;
-        height: 9px;
     }
 
     .d1
@@ -1061,36 +766,6 @@ ul li
     #petitmenu
     {
         margin-right: 13em;
-    }
-
-    .poste3
-    {
-        margin-bottom: 1em;
-    }
-
-    .poste2
-    {
-        margin-bottom: 3.5em;
-    }
-
-    .petit1
-    {
-        top: 5em;
-    }
-
-    .petit2
-    {
-        top: 17.2em;
-    }
-
-    .petit3
-    {
-        top: 5em;
-    }
-
-    .petit4
-    {
-        top: 16.5em;
     }
 
 }
