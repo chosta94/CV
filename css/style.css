@@ -199,6 +199,17 @@ header
     margin-top: 0.43em;
 }
 
+.points3
+{
+    background:#FBC02D;
+    border-radius:50%;
+    width: 6px;
+    height: 6px;
+    margin-left: 0.35em;
+    margin-right: 1em;
+    margin-top: 0.43em;
+}
+
 .cercle
 {
     display: flex;
@@ -221,7 +232,13 @@ header
 .Grandpoints2
 {
     display: flex;
-    margin-top: 11em;
+    margin-top: 5em;
+}
+
+.Grandpoints3
+{
+    display: flex;
+    margin-top: 7em;
 }
 
 .d1
@@ -480,6 +497,7 @@ ul li
     {
         margin-top: 0.7em;
     }
+
 }
 
 @media all and (max-width: 420px)
@@ -496,6 +514,15 @@ ul li
     {
         position: relative;
         bottom: -1.5em;
+    }
+
+}
+
+@media all and (max-width: 520px)
+{
+    .titre3
+    {
+        margin-top: 0.5em;
     }
 
 }
@@ -517,6 +544,23 @@ ul li
         right: 14em;
     }
 }
+
+@media all and (max-width: 1732px)
+{ 
+    .Grandpoints2
+    {
+        display: flex;
+        margin-top: 6em;
+    }
+
+    .Grandpoints3
+    {
+        display: flex;
+        margin-top: 8em;
+    }
+}
+
+
 
 @media all and (max-width: 514px)
 { 
@@ -655,6 +699,16 @@ ul li
     {
         margin-right: 15em;
         width: auto;
+    }
+
+    .Grandpoints3
+    {
+        margin-top: 7em;
+    }
+
+    .Grandpoints2
+    {
+        margin-top: 6em;
     }
 
 }
