@@ -241,6 +241,12 @@ header
     margin-top: 7em;
 }
 
+.Grandpoints4
+{
+    display: flex;
+    margin-top: 2.5em;
+}
+
 .d1
 {
     position: relative;
@@ -337,6 +343,11 @@ ul li
     font-weight: 500;
 }
 
+#site
+{
+    text-decoration: underline;
+}
+
 /*Responsive*/
 
 @media all and (max-width: 1230px)
@@ -431,6 +442,15 @@ ul li
     }
 }
 
+@media all and (max-width: 746px)
+{
+    .Grandpoints4
+    {
+        padding-bottom: 3.6em;
+        
+    }
+}
+
 @media all and (max-width: 490px)
 {
     .cercle
@@ -495,9 +515,33 @@ ul li
 
     .Grandpoints
     {
-        margin-top: 0.7em;
+        margin-top: 0em;
     }
 
+    .Grandpoints4
+    {
+        margin-top: 0em;
+        padding-bottom: 6.4em;
+    }
+
+}
+
+@media all and (max-width: 518px)
+{
+    .Grandpoints4
+    {
+        margin-top: 0em;
+        padding-bottom: 5em;
+    }
+}
+
+@media all and (max-width: 384px)
+{
+    .Grandpoints4
+    {
+        margin-top: -0.5em;
+        padding-bottom: 7.5em;
+    }
 }
 
 @media all and (max-width: 420px)
