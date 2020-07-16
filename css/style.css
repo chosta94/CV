@@ -606,6 +606,7 @@ ul li
         right: 7.5em;
     }
 }
+
 @media all and (max-width: 418px)
 { 
     #petitmenu2
@@ -620,6 +621,14 @@ ul li
         position: relative;
         font-size: 0.7em;
         right: 1.2em;
+    }
+}
+
+@media all and (max-width: 356px)
+{ 
+    #nogent
+    {
+        font-size: 0.70em;
     }
 }
 
