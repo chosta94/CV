@@ -89,6 +89,7 @@ aside
 }
 .petitesimages
 {
+    max-height: 4em;
     width: 35px;
     opacity: 0.7;
     position: relative;
