@@ -36,7 +36,7 @@ aside
 
 #PartieD
 {
-    margin-left: 2.8em;
+    margin-left: 4em;
 }
 
 #maphoto
@@ -132,8 +132,7 @@ header
 
 #s2
 {
-    text-decoration: underline #FBC02D;
-    border-bottom: 1px solid #FBC02D;
+    border-bottom: 2px solid #FBC02D;
 }
 
 /*Section principale*/
